@@ -66,6 +66,28 @@ namespace Inheritance
   }
 }
 
+===================================================
+
+using System;
+
+public class nani
+{
+    public string valentine="Christy";
+}
+public class Bongu : nani
+{
+    public string pet="Mayya";
+}
+class Sajeev
+{
+    public static void Main(string[]args)
+    {
+        Bongu p = new Bongu();
+        Console.WriteLine("valentine:"+p.valentine);           //valentine:Christy
+        Console.WriteLine("pet:"+p.pet);                      //pet:Mayya
+    }
+}
+
 
 
 

@@ -74,17 +74,17 @@ public class nani
 {
     public string valentine="Christy";
 }
-public class Bongu : nani
+public class Sajeev : nani
 {
-    public string pet="Mayya";
+    public string pet="Dora";
 }
 class Sajeev
 {
     public static void Main(string[]args)
     {
-        Bongu p = new Bongu();
+        Sajeev p = new Sajeev();
         Console.WriteLine("valentine:"+p.valentine);           //valentine:Christy
-        Console.WriteLine("pet:"+p.pet);                      //pet:Mayya
+        Console.WriteLine("pet:"+p.pet);                      //pet:Dora
     }
 }
 
